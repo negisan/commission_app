@@ -165,8 +165,6 @@ $ yarn install
 #### sequelize-cliで各種操作
 
 ```
-$ cd src/
-
 //dbの作成
 $ npx sequelize db:drop
 $ npx sequelize db:create
@@ -181,8 +179,6 @@ $ npx sequelize db:seed:all
 #### サーバーの起動
 
 ```
-// server.jsがあるディレクトリに戻る
-$ cd ..
 $ yarn run start
 ```
 
